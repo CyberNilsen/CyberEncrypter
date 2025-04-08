@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="CyberEncrypter"  WindowStartupLocation="CenterScreen"
         WindowStyle="None" Background="Transparent" ResizeMode="CanResize" AllowsTransparency="True"
-        MinHeight="550" MinWidth="850">
+        MinHeight="550" MinWidth="870">
 
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="40" 
