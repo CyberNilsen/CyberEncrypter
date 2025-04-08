@@ -40,7 +40,7 @@
                                VerticalAlignment="Center"/>
                 </StackPanel>
                 <StackPanel Grid.Row="1" Margin="0,20,0,0">
-                    <Button Style="{StaticResource NavButton}">
+                    <Button Style="{StaticResource NavButton}" Click="dashboard_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="&#xE8B7;" 
                                        FontFamily="Segoe MDL2 Assets" 
@@ -55,7 +55,7 @@
                         </StackPanel>
                     </Button>
 
-                    <Button Style="{StaticResource NavButton}">
+                    <Button Style="{StaticResource NavButton}" Click="Button_Click">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="&#xE8A5;" 
                                        FontFamily="Segoe MDL2 Assets" 
