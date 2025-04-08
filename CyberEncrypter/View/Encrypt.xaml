@@ -188,7 +188,7 @@
                         Height="45"
                         FontSize="16"
                         Width="200"
-                        x:Name="EncryptButton">
+                        x:Name="EncryptButton" Click="EncryptButton_Click">
                     <Button.ContentTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
